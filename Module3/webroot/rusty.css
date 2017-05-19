@@ -1,12 +1,30 @@
+body {
+	font-family: "Comic Sans MS";
+}
+
 p {
 	color: maroon;
 }
 
-h1, h2 {
-	font-family: sans-serif;
+h1, h2 {	
 	color: gray;
 }
 
 h1 {
 	border-bottom: 1px solid black;
 }
+
+.greatThing {
+	font-family: "Times Roman";
+	color: blue;
+}
+
+.crazyThing {
+	color: green;
+}
+
+.importantThing {
+	color: red;
+	border: 10px solid red;
+}
+
