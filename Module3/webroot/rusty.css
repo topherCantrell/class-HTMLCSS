@@ -1,5 +1,7 @@
 body {
-	font-family: "Comic Sans MS";
+
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	
 }
 
 p {
@@ -10,8 +12,14 @@ h1, h2 {
 	color: gray;
 }
 
+@font-face {
+	font-family: Forticula;
+	src : url("forficula.ttf");
+}
+
 h1 {
 	border-bottom: 1px solid black;
+	font-family: Forticula;
 }
 
 .greatThing {
