@@ -1,38 +1,14 @@
-body {
-
-	font-family: Verdana, Geneva, Arial, sans-serif;
+body { 
 	
+	background-color: aqua;
+	color: fuchsia;
+	
+	color: #005090;
+	color: #0BEEF0;
+	
+	color: rgb(80%, 40%, 0%);
+	color: rgb(204, 102, 0);
+
 }
 
-p {
-	color: maroon;
-}
-
-h1, h2 {	
-	color: gray;
-}
-
-@font-face {
-	font-family: Forticula;
-	src : url("forficula.ttf");	      
-}
-
-h1 {
-	border-bottom: 1px solid black;
-	font-family: Forticula;
-}
-
-.greatThing {
-	font-family: "Times Roman";
-	color: blue;
-}
-
-.crazyThing {
-	color: green;
-}
-
-.importantThing {
-	color: red;
-	border: 10px solid red;
-}
 
