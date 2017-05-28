@@ -1,0 +1,50 @@
+body { 
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #470D09;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: #e5b5b5;
+	margin: 30px;
+	padding: 25px;
+	line-height: 1.9em;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #444444;
+}
+
+.guarantee2 {
+	line-height: 1.9em;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #444444;
+	padding: 25px;
+	padding-left: 80px;
+	margin: 30px;
+	margin-right: 250px;
+	border-style: dashed;
+	border-color: white;
+	border-width: 1px;
+	background-color: #e5b5b5;
+	background-image: url(images/guarantee.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	
+}
+
