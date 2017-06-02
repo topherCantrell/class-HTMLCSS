@@ -18,6 +18,16 @@ h2 {
 	font-size: 1.3em;
 }
 
+h1.blueberry {color: blue;}
+
+h1.rusty {color: gray;}
+
+h1 {color:green;}
+
+body h1 {color:red};
+
+h1 {color:black;}
+
 #guarantee {
 	border-style: dashed;
 	border-color: white;
