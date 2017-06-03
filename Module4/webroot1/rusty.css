@@ -1,3 +1,29 @@
+@media screen and (min-width: 980px) /* Desktop */ {
+  body {
+    background: red;
+  }
+  #guarantee {
+    margin-right: 250px;
+  }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+  body {
+    background: blue;
+  }
+  #guarantee {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  body {
+    background: green;
+  }
+  #guarantee {
+    margin-right: 10px;
+  }
+}
 
 body { 
 	font-size: small;
@@ -22,8 +48,6 @@ h2 {
 	border-color: white;
 	border-width: 1px;
 	background-color: #e5b5b5;	
-	margin: 30px;
-	margin-right: 250px;
 	padding: 25px;
 	padding-left: 80px;
 	line-height: 1.9em;
@@ -35,44 +59,4 @@ h2 {
 	background-position: top left;
 }
 
-#flyer {
-	border-width: thin;
-	border-style: solid;
-	border-color: #7e4040;
-	width: 250px;
-	float: right;
-	
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	text-align:center;
-	
-	background-color: white;
-	background-image: url(images/sale.png);
-	background-repeat: no-repeat;
-	
-	line-height: 1;
-}
 
-a:link {
-	color: #f54040;	
-}
-
-a:visited {	
-	color: #601010;	
-}
-
-a:hover {
-	color:black;
-	background-color: #e5b5b5;
-}
-
-
-#flyer h2 {
-	color: black;
-	font-size: 2em;
-}
-
-#flyer h3 {
-	color: #C00000;
-}
