@@ -3,8 +3,8 @@ body {
 	font-size: small;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	line-height: 1.6em;
-	margin: 10px;
 	background-color:#E0E0E0;
+	margin: 10px;
 }
 
 #rustyHeader {
@@ -36,12 +36,15 @@ h2 {
 	font-size: 1.3em;
 }
 
-#guarantee {	
+#guarantee {
+	/*
 	border-style: dashed;
 	border-color: white;
 	border-width: 1px;
-	background-color: #e5b5b5;	
+	background-color: #e5b5b5;
+	*/	
 	margin: 30px;
+	margin-right: 250px;
 	padding: 25px;
 	padding-left: 80px;
 	line-height: 1.9em;
@@ -51,6 +54,26 @@ h2 {
 	background-image: url(images/guarantee.png);
 	background-repeat: no-repeat;
 	background-position: top left;
+}
+
+#flyer {
+	border-width: thin;
+	border-style: solid;
+	border-color: #7e4040;
+	width: 250px;
+	float: right;
+	margin: 10px 0px 10px 10px;
+	
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-align:center;
+	
+	background-color: white;
+	background-image: url(images/sale.png);
+	background-repeat: no-repeat;
+	
+	line-height: 1;	
 }
 
 a:link {
@@ -81,35 +104,3 @@ a:hover {
 	padding-top: 1em;
 }
 
-#tableContainer {
-	display:table;
-	border-spacing: 10px;
-}
-
-#tableRow {
-	display:table-row;
-}
-
-#flyer {
-	display: table-cell;
-	border-width: thin;
-	border-style: solid;
-	border-color: #7e4040;
-	width: 250px;
-	margin: 10px 0px 10px 10px;
-	
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	text-align:center;
-	
-	background-color: white;
-	background-image: url(images/sale.png);
-	background-repeat: no-repeat;
-	
-	line-height: 1;	
-}
-
-#main {
-	display: table-cell;
-}

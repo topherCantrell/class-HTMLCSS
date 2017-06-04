@@ -1,0 +1,23 @@
+body {
+	font-family: 'Bubbler One', sans-serif;
+	background-color: #fff2e6;
+}
+
+#ingredients {
+	padding: 4px;
+	width: 180px;
+	float: right;
+	border: 1px solid black;
+}
+
+#header {
+	padding: 4px 10px;
+	background-color: #663300;
+	color: white;
+}
+
+#footer {
+	padding: 4px 10px;
+	background-color: #663300;
+	color: white;
+}
