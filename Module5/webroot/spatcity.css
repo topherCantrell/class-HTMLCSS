@@ -1,0 +1,38 @@
+body {
+	background-color: #d0d0c0;
+}
+
+header,footer {
+	background-color: #709090;	
+}
+
+nav, section, aside {
+	background-color: #d0e0f0;	
+	margin: 10px 0px 0px 0px;
+}
+
+#main {
+	display:table;		
+	border-spacing: 10px;
+	margin-left: -10px;
+	margin-right: -8px;
+}
+
+#mainRow {
+	display: table-row;
+	
+}
+
+section#products {
+	display: table-cell;	
+	width:225px;
+}
+
+section#blog {	
+	display: table-cell;
+}
+
+aside {
+	display: table-cell;
+	width: 250px;	
+}
