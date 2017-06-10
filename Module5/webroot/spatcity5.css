@@ -1,0 +1,70 @@
+#main {
+	display:table;		
+	border-spacing: 10px; 
+	margin-left: -10px; 
+	margin-right: -8px; 
+}
+
+#mainRow {
+	display: table-row;	
+	border-spacing: 10px; 
+}
+
+section {
+	display: table-cell;
+	padding: 10px;
+}
+
+section#products {
+	width:225px; 	
+}
+
+section#blog {
+	width: 100%; 
+}
+
+aside {
+	display: table-cell;	
+	width:250px; 
+	padding: 10px;
+}
+
+body {
+	background-color: #d0d0c0;
+}
+
+header#top {
+	background-color: #709090;	
+	color: #d9d9d9;
+	margin-bottom: 10px; 
+}
+
+footer {
+	background-color: #709090;	
+	color: #d9d9d9;	
+}
+
+
+footer p, header p, nav p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+nav, section, aside {
+	background-color: #d0e0f0;	
+}
+
+article header h1 {
+	color: #F01941;
+	margin-bottom: 0px;
+}
+
+article header time {
+	font-style: italic;
+	color: darkblue;
+}
+
+article p {
+	padding-left:8px;
+}

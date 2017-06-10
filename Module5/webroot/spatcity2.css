@@ -1,0 +1,29 @@
+#mainRow {
+	display: table-row;	
+}
+
+section {
+	display: table-cell;
+}
+
+aside {
+	display: table-cell;	
+}
+
+body {
+	background-color: #d0d0c0;
+}
+
+header {
+	background-color: #709090;	
+	color: #d9d9d9;
+}
+
+footer {
+	background-color: #709090;	
+	color: #d9d9d9;
+}
+
+nav, section, aside {
+	background-color: #d0e0f0;	
+}

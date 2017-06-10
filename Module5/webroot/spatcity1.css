@@ -1,0 +1,16 @@
+#main {
+	display:table;		
+	border-spacing: 10px;
+}
+
+#mainRow {
+	display: table-row;	
+}
+
+section {
+	display: table-cell;
+}
+
+aside {
+	display: table-cell;	
+}

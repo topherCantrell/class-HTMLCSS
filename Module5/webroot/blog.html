@@ -7,30 +7,38 @@
 	
     <body>        
     
-    <header><img src="images/spatlogo.jpg">
+    <header class="top">
+        <img src="images/spatlogo.jpg">
     	<div id="statement">
     		<p>We sell spatulas ... and that's all!</p>
     	</div>
     </header>
     
-    <nav>HOME BLOG PRODUCTS HOLIDAYS</nav>
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="selected"><a href="blog.html">Blog</a></li>
+      <li><a href="">Products</a></li>
+      <li><a href="">Holidays</a></li>
+    </ul>
+    </nav>
     
     <div id="main">
 	    <div id="mainRow">
 	    
 		    <section id="products">
-		    <h1>Basic Flippers</h1>
-		    Ronco 9000 - $2.43<br>
-		    Ronco 3100 - $1.50<br>
-		    Amy May - $6.22</br>
-		    GIR Mini 11 inch - $3.00</br>
-		    <h1>Blue Steele</h1>
-		    Ateco Red - $74.95</br>
-		    Solomon Flip - $55.00</br>
-		    Titanium Slug - $175.95</br>
-		    <h1>Grill King</h1>
-		    The Burger Chef - $3.76</br>
-		    Fish Master 2000 - $7.88</br>		    
+		    	<h1>Basic Flippers</h1>
+			    <p>Ronco 9000 - $2.43</p>
+			    <p>Ronco 3100 - $1.50</p>		    
+			    <p>Amy May - $6.22</p>		    
+			    <p>GIR Mini 11 inch - $3.00</p>
+			    <h1>Blue Steele</h1>
+			    <p>Ateco Red - $74.95</p>
+			    <p>Solomon Flip - $55.00</p>
+			    <p>Titanium Slug - $175.95</p>
+			    <h1>Grill King</h1>
+			    <p>The Burger Chef - $3.76</p>
+			    <p>Fish Master 2000 - $7.88</p>		    
 		    </section>		    
 		    
 		    <section id="blog">
@@ -38,9 +46,11 @@
 		    <article>
 		    <header>
 		        <h1>Our First TV Commercial</h1>
-		        <time datetime="1989-12-15">1/10/1989</time>
+		        <time datetime="1989-12-15">12/15/1989</time>
 		    </header>
+		    <p class="vid">
 		    <video width="400" controls><source src="video/spatula.mp4"></video>
+		    </p>
 		    </article>
 		    
 		    <article>
