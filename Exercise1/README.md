@@ -9,12 +9,7 @@ journal into a single HTML page.
 *  Use the images in the project directory.
 *  Add other images and entries to Jacob's web journal!
 
-You need these files (download from this repository):
--  2015-1-1.jpg
--  2015-1-10.jpg
--  2015-3-14.jpg
--  2015-5-29.jpg
--  diary.docx
+Download the files from the root of this repository.
 
 
 
