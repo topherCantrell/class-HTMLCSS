@@ -1,3 +1,3 @@
-# Solution to Exercise
+# Exercise 6: KidSpace Station
 
-Two wiki pages ... problem and solution
+TODO: Directions and descriptions of the files

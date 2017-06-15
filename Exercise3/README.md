@@ -1,3 +1,3 @@
-# Solution to Exercise
+# Exercise 3: Chocolate
 
-Two wiki pages ... problem and solution
+TODO: Directions and descriptions of the files
