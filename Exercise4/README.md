@@ -6,7 +6,7 @@ Give each page a stylish header and footer.
 
 Here is a simple example.
 
-TODO add the art
+![](https://github.com/topherCantrell/class-HTMLCSS/blob/master/Exercise4/art/dogs.jpg)
 
 It needs a lot of enhancements:
 *  How about a logo?
