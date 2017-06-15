@@ -6,4 +6,5 @@ Rework the Mushroom web site to use thumbnails.
 *  Resize the images to make thumbnails.
 *  Each journal entry should be its own HTML page.
 
-Download the files from the root of this repository.
+Use your own solution to Exercise 1 (or download my solution from 
+the Exercise 1 repository).
