@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<style>
+
+#id {
+  display: table;
+}
+
+.formRow {
+  display: table-row;
+}
+
+.left, right {
+  display: table-cell;
+  padding: 4px;
+}
+
+.left {
+  text-align: right;
+}
+
+.topGap {
+  margin-top: 16px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Tell us about you</h1>
+
+<form id="about" action="/index.html" method="GET">
+
+<div class="formRow">
+  <p class="left"><label for="field1">Name:</label></p>
+  <p class="right"><input id="field1" type="text" name="name" placeholder="Your name..."></p>
+</div>
+<div class="formRow">
+  <p class="left">Age:</p>
+  <p class="right"><input type="text" name="age" required></p>
+</div>
+<div class="formRow">
+  <p class="left"></p>
+  <p class="right"><input id="piz" type="checkbox" name="pizza"><label for="piz">I like pizza!</label></p>
+  </div>
+<div class="formRow buttonRow">
+  <p class="left"></p>
+  <p class="right"><button class="topGap" type="submit" name="send">Send</button></p>
+</div>
+
+</form>
+
+</body>
+</html>
