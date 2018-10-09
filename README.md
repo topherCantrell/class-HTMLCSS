@@ -2,12 +2,10 @@
 
 Project for UAH class - HTML5 and CSS3 (online and classroom)
 
-## Module 1
+## Folder: classroom
 
-This module (day in the classroom) covers Chapters 1, 2, and 3.
+Materials for the classroom version of the course
 
-## Exercise 1
+## Folder: ucertify
 
-[Exercise 1 Files](https://github.com/topherCantrell/class-HTMLCSS/tree/master/Module1/Exercise1)
-
-Syllabus needs to reference this
+Materials for the ucertify (online) version of the course
