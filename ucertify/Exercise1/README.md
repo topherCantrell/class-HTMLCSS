@@ -10,4 +10,4 @@ Use an external CSS stylesheet to style the page [7]. You should validate your f
 
 Be creative! Add elements you think the web site needs. My minimal solution is shown below.
 
-![](sdf)
+![](kidspace.jpg)
