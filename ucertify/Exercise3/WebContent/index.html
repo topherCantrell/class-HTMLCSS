@@ -53,6 +53,33 @@ Nam a tincidunt quam. Curabitur placerat interdum tellus, vel pellentesque tellu
 facilisis id. Mauris eu magna quis lectus vulputate facilisis vel quis risus.
 </section>
 
+<script>
+
+function weightCalc(grav) {
+	var ew = document.getElementById('earthWeight').value
+	var ng = grav * ew / 9.8
+	document.getElementById('outWeight').textContent = ng
+}
+
+</script>
+
+<h1>Weight Calculator</h1>
+
+Weight on Earth: <input id="earthWeight" type="text" value="100">
+<p>
+
+Weight on 
+
+<select onchange="weightCalc(this.options[this.selectedIndex].value)">
+    <option value="3.70">Mercury</option>
+    <option value="8.87">Venus</option>
+    <option value="3.71">Mars</option>
+</select>
+
+is 
+
+<span id="outWeight">37.755</span>.
+
 <footer>
 <p>
 <a href="#"> NASA</a> |
@@ -74,7 +101,6 @@ var moonWeight = weightOnMoon(weight);
 alert("On the moon you weigh "+moonWeight);
 
 </script>
-
 
 </body>
 
