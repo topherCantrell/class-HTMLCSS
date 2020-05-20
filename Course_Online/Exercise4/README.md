@@ -11,4 +11,4 @@ One thing I discovered is to "begin", "close", and "stroke" the path between ind
 
 # Example Solution
 
-![](canvasArt.jpg)
+![](ex4.jpg)

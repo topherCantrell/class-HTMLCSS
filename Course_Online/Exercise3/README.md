@@ -14,4 +14,4 @@ Convert the weight to the destination planet.
 
 # Example Solution
 
-![](weightOnMoon.jpg)
+![](ex3.jpg)
