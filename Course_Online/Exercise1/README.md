@@ -1,3 +1,5 @@
+# Exercise 1: Kid Space
+
 You are building the landing page for a cool new, kid-friendly web site called "Kid Space".
 
 Your page should have a header [1] and footer [2] and two sections [3] of educational material. You can use fake text in place of the actual material.
